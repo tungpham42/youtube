@@ -63,8 +63,8 @@ $count = $countStatement->fetchColumn();
 if ($count === 0) {
     $username = 'admin';
     $password = 'password';
-    $siteTitle = 'World News';
-    $siteDescription = 'Latest news from popular newspapers. Updated 24/7.';
+    $siteTitle = 'Trending YouTube Channels';
+    $siteDescription = 'Latest videos from popular YouTube Channels. Updated 24/7.';
     $theme = 'quartz';
     $defaultSettings = array(
         'username' => $username,
