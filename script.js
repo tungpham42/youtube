@@ -46,7 +46,7 @@ function fetchRss(rssUrl, containerID) {
                     <div class="card">
                       <img src="${
                         item.image
-                      }" class="card-img-top" alt=${item.title}>
+                      }" class="card-img-top" alt="${item.title}">
                       <div class="card-body">
                         <h5 class="card-title"><a href="${
                           item.link
