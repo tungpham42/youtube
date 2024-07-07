@@ -1,0 +1,25 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+small,
+button {
+  font-family: "Be Vietnam Pro", sans-serif !important;
+}
+
+#back-to-top {
+  position: fixed;
+  border-radius: 5px;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  display: none;
+}
