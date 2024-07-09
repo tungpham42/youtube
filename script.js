@@ -54,7 +54,9 @@ function fetchRss(rssUrl, containerID) {
                         <p class="card-text">${descriptionWithoutImg}</p>
                         <small class="text-muted d-block my-3">${new Date(
                           item.pubDate
-                        ).toLocaleDateString("vi-VN")}</small>
+                        )
+                          .toISOString()
+                          .slice(0, 10)}</small>
                       </div>
                     </div>
                   </div>
